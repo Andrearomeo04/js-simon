@@ -22,6 +22,12 @@ function start () {
             user_numbers.push(ask_num)
         }
     }
+
+    const compared_numbers = []
+        
+    for (let i = 0; i < compared_numbers.length; i++) {
+        
+    }
         
 }
 
