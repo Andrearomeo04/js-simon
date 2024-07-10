@@ -8,17 +8,16 @@ soluzione
 5.ritorno l'array x 
 6.definisco una seconda funzione x
 7.richiamo la prima funzione x
-8. creo due variabili con cui andrò a richiamare 2 elementi presenti nel DOM x
-9.definisco una timing function con un tempo di 30 secondi
-10.all'interno di essa andrò a cancellare i numeri generati in pagina
-11.creo un array
-12.creo un ciclo di 5 iterazioni con cui andrò a chiedere all'utente di inserire i 5 numeri
-13.creo una variabile a cui assegno un prompt con cui chiedo i numeri all'utente
-14.applico una condizione per verificare se il numero inserito è un numero valido
-15.se il numero inserito è valido, allora lo pusho all'interno dell'array appena creato
-16.creo un array che conterrà i numeri corretti inseriti dall'utente
-17.creo un ciclo for
-18.creo una variabile a cui assegno i valori dell'array contenente i numeri generati casualmente
-19.tramite un if controllo se i numeri generati casualmente sono inclusi nell'array contenente i numeri inseriti dall'utente
-20.se la condiizone risulta vera, allora pusho il numero dentro l'ultimo array creato
-21.mostro a video quanti numeri sono stati indovinati e quali sono stati indovinati 
+8.all'interno di essa andrò a cancellare i numeri generati in pagina x
+9.creo un array x
+10.definisco una timer function per assicurarmi che i numeri scompaiano prima dell'apparizione del prompt x
+11.creo un ciclo di 5 iterazioni con cui andrò a chiedere all'utente di inserire i 5 numeri x
+12.creo una variabile a cui assegno un prompt con cui chiedo i numeri all'utente x
+13.applico una condizione per verificare se il numero inserito è un numero valido x
+14.se il numero inserito è valido, allora lo pusho all'interno dell'array appena creato x
+15.creo un array che conterrà i numeri corretti inseriti dall'utente x
+16.creo un ciclo for x
+17.creo una variabile a cui assegno i valori dell'array contenente i numeri generati casualmente x
+18.tramite un if controllo se i numeri generati casualmente sono inclusi nell'array contenente i numeri inseriti dall'utente x
+19.se la condiizone risulta vera, allora pusho il numero dentro l'ultimo array creato x
+20.mostro a video quanti numeri sono stati indovinati e quali sono stati indovinati x 
