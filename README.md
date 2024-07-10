@@ -1,14 +1,14 @@
 Visualizzare in pagina 5 numeri casuali. Da lì parte un timer di 30 secondi. Dopo 30 secondi i numeri scompaiono e l'utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite il prompt(). Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati.
 
 soluzione
-1.definisco una funzione
-2.all'interno creo un array
-3.creo un ciclo while al cui interno inserisco una variabile a cui associo il metodo mathfloor per generare 5 numeri diversi
-4.creo una condizione in cui verifico se il numero appena generato è già presente all'interno dell'array, se cosi non fosse allora pusho il numero dentro l'array
-5.ritorno l'array
-6.definisco una seconda funzione
-7.richiamo la prima funzione
-8. creo due variabili con cui andrò a richiamare 2 elementi presenti nel DOM
+1.definisco una funzione x
+2.all'interno creo un array x
+3.creo un ciclo while al cui interno inserisco una variabile a cui associo il metodo mathfloor per generare 5 numeri diversi x
+4.creo una condizione in cui verifico se il numero appena generato è già presente all'interno dell'array, se cosi non fosse allora pusho il numero dentro l'array x
+5.ritorno l'array x 
+6.definisco una seconda funzione x
+7.richiamo la prima funzione x
+8. creo due variabili con cui andrò a richiamare 2 elementi presenti nel DOM x
 9.definisco una timing function con un tempo di 30 secondi
 10.all'interno di essa andrò a cancellare i numeri generati in pagina
 11.creo un array
