@@ -55,6 +55,6 @@ let show_num = document.getElementById('numbers');
 show_num.innerHTML = random.join(' ')
 
 
-setTimeout(start, 5000)
+setTimeout(start, 30000)
 
 
