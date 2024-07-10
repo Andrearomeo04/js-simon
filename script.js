@@ -15,6 +15,10 @@ function start () {
     random.innerHTML = ''
 
     let user_numbers = []
+
+    for (let i = 0; i < user_numbers.length; i++) {
+        let ask_num = parseInt(prompt(`inserisci il numero ${i + 1} `))
+    }
         
 }
 
