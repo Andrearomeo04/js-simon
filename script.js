@@ -18,6 +18,9 @@ function start () {
 
     for (let i = 0; i < user_numbers.length; i++) {
         let ask_num = parseInt(prompt(`inserisci il numero ${i + 1} `))
+        if (!isNaN(ask_num)) {
+            user_numbers.push(ask_num)
+        }
     }
         
 }
