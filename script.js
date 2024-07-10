@@ -17,38 +17,37 @@ function start () {
 
     let user_numbers = []
 
-    for (let i = 0; i < random.length; i++) {
-        let ask_num = parseInt(prompt(`inserisci il numero ${i + 1} `))
-        if (!isNaN(ask_num)) {
-            user_numbers.push(ask_num)
+    setTimeout(() => {
+        for (let i = 0; i < random.length; i++) {
+            let ask_num = parseInt(prompt(`inserisci il numero ${i + 1} `))
+            if (!isNaN(ask_num)) {
+                user_numbers.push(ask_num)
+            }
         }
-    }
-
-    const compared_numbers = []
-        
-    for (let i = 0; i < random.length; i++) {
-        let final_numbers = random[i]
-        if (user_numbers.includes(final_numbers)) {
-            compared_numbers.push(final_numbers)
+    
+        const compared_numbers = []
+            
+        for (let i = 0; i < random.length; i++) {
+            let final_numbers = random[i]
+            if (user_numbers.includes(final_numbers)) {
+                compared_numbers.push(final_numbers)
+            }
         }
-    }
-
-    let result = document.getElementById('final_message');
-
-
-
-    if (compared_numbers.length === 1) {
-        result.innerHTML = `Al pelo! Hai indovinato ${compared_numbers.length} numeri u 5! (${compared_numbers}) `
-    } else if (compared_numbers.length === 2 || compared_numbers.length === 3 ) {
-        result.innerHTML = `Poteva andare meglio... Hai indovinato ${compared_numbers.length} numeri su 5! (${compared_numbers}) `
-    } else if (compared_numbers.length === 4) {
-        result.innerHTML = `Ci sei andato vicinissimo! Hai indovinato ${compared_numbers.length} numeri su 5! (${compared_numbers}) `
-    } else if (compared_numbers.length === 5) {
-        result.innerHTML = `Complimenti! Ma come hai fatto? Hai indovinato ${compared_numbers.length} numeri su 5! (${compared_numbers}) `
-    }
-
-
-        
+    
+        let result = document.getElementById('final_message');
+    
+    
+    
+        if (compared_numbers.length === 1) {
+            result.innerHTML = `Al pelo! Hai indovinato ${compared_numbers.length} numeri u 5! (${compared_numbers}) `
+        } else if (compared_numbers.length === 2 || compared_numbers.length === 3 ) {
+            result.innerHTML = `Poteva andare meglio... Hai indovinato ${compared_numbers.length} numeri su 5! (${compared_numbers}) `
+        } else if (compared_numbers.length === 4) {
+            result.innerHTML = `Ci sei andato vicinissimo! Hai indovinato ${compared_numbers.length} numeri su 5! (${compared_numbers}) `
+        } else if (compared_numbers.length === 5) {
+            result.innerHTML = `Complimenti! Ma come hai fatto? Hai indovinato ${compared_numbers.length} numeri su 5! (${compared_numbers}) `
+        } 
+    }, 100);     
 }
 
 let show_num = document.getElementById('numbers');
