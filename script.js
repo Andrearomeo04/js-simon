@@ -39,6 +39,9 @@ function start () {
     if (compared_numbers.length === 2 || compared_numbers.length === 3 ) {
         result.innerHTML = `Poteva andare meglio... Hai indovinato ${compared_numbers.length} numeri! (${compared_numbers}) `
     }
+    if (compared_numbers.length === 4) {
+        result.innerHTML = `Ci sei andato vicinissimo! Hai indovinato ${compared_numbers.length} numeri! (${compared_numbers}) `
+    }
         
 }
 
