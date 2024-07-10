@@ -10,13 +10,14 @@ function generate_random_numbers (num_arr, max, min){
 
     return casual_numbers
 }
+const random = generate_random_numbers (5, 100, 1);
 
 function start () {
     random.innerHTML = ''
 
     let user_numbers = []
 
-    for (let i = 0; i < user_numbers.length; i++) {
+    for (let i = 0; i < random.length; i++) {
         let ask_num = parseInt(prompt(`inserisci il numero ${i + 1} `))
         if (!isNaN(ask_num)) {
             user_numbers.push(ask_num)
@@ -26,13 +27,16 @@ function start () {
     const compared_numbers = []
         
     for (let i = 0; i < compared_numbers.length; i++) {
-        
+        let final_numbers = casual_numbers[i]
+        if (user_numbers.includes(final_numbers)) {
+            compared_numbers.push(final_numbers)
+        }
     }
         
 }
 
 
-const random = generate_random_numbers (5, 100, 1);
+
 let show_num = document.getElementById('numbers');
 let result = document.getElementById('final_message');
 
