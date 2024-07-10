@@ -1,7 +1,7 @@
 function generate_random_numbers (num_arr, max, min){
     casual_numbers = [];
     
-    while (casual_numbers.lenght < num_arr) {
+    while (casual_numbers.length < num_arr) {
         let generated_numbers = Math.floor(Math.random() * max) + min;
         if (!casual_numbers.includes(generated_numbers)) {
             casual_numbers.push(generated_numbers);
@@ -11,6 +11,18 @@ function generate_random_numbers (num_arr, max, min){
     return casual_numbers
 }
 
+function start () {
+    random.innerHTML = ''
+
+    let user_numbers = []
+        
+}
+
+
 const random = generate_random_numbers (5, 100, 1);
 let show_num = document.getElementById('numbers');
 let result = document.getElementById('final_message');
+
+show_num.innerHTML = random.join(' ')
+
+
