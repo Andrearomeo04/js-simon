@@ -32,6 +32,10 @@ function start () {
             compared_numbers.push(final_numbers)
         }
     }
+
+    if (compared_numbers.length === 1) {
+        result.innerHTML = `Al pelo! Hai indovinato ${compared_numbers.length} numeri! (${compared_numbers}) `
+    }
         
 }
 
